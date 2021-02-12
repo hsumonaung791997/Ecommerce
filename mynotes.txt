@@ -1,0 +1,34 @@
+Frontend UI
+----------------
+- Home
+    - carousel
+    - categories
+    - discount items
+    - latest item/flash sale(add to cart)
+    - top brands
+
+- cart page
+    - selected items
+    - continue / checkout
+
+- Filter
+    - show all items by Filter
+    - add to cart
+
+- Login / Register
+- order history
+
+
+Spatie roles and permissions
+-----------------------------
+
+
+Email Verify
+------------
+-user model must implements mustVerifyEmail
+-auth route ['verify'=> true]
+-$this->middleware('verified') in construct method
+
+-register in mailtrap.io 
+-integration in .env
+-check mail inboxes
